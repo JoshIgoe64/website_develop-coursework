@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
-body {
+body { 
     font-family: 'PT Sans', sans-serif;
-    background-color: #5C9EAD;
+    /*background-color: #5C9EAD;*/
 }
 
 h4,h6 {
@@ -20,8 +20,12 @@ p {
     font-size: 12px;
     color: #2B4141;
 }
-Header {
+Header 
+{
     position: absolute;
     top: 100vh;
-    color: #2364AA
+    color: #2364AA;
+    /*imgsrc="HeaderLogo.png" alt="My Logo";
+    padding: 10px 20px 1000px 100px
+    width:1000px;*/
 }
