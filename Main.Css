@@ -8,18 +8,16 @@ body {
     padding: 25px,40px ,75px ,200px;
     background-color: lightblue;
 }
+
 h6 {
     /*font-size: 16px;
     Line above just for h6. 
     h2=24 h4=20*/
     color: #01295F;
-    font-size: 16px;
+    font-size: 20px;
 }
-imagehead {
-    float: right;    
-    margin: 0 0 0 15px;
-}
-h2 {
+
+h2, h4 {
     color: #2B4141;
     font-size: 24px;
 }
@@ -37,10 +35,18 @@ Header
     width:1000px;*/
 }
 body { 
-    background: url(VinylBackground.jpg) no-repeat center center fixed; 
+    background: url(VinylBackground.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
-    opacity: 0.5;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-color: rgba(255, 0, 0, 0.2);
     background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    /*width: 33.3%;*/
 }
